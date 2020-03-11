@@ -90,6 +90,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
@@ -2133,7 +2134,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <text>&quot;Pri</text>
+              <text>Pri</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -2244,7 +2245,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <text>svoj&quot;,</text>
+              <text>svoj,</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -5261,7 +5262,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <text>&quot;Pri</text>
+              <text>Pri</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -5368,7 +5369,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <text>svoj&quot;,</text>
+              <text>svoj,</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -10380,7 +10381,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <text>&quot;Pri</text>
+              <text>Pri</text>
               </Lyrics>
             <Note>
               <pitch>55</pitch>
@@ -10487,7 +10488,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <text>svoj&quot;,</text>
+              <text>svoj,</text>
               </Lyrics>
             <Note>
               <pitch>55</pitch>

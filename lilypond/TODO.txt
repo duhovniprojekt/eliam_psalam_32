@@ -1,0 +1,46 @@
+- add \bar "|." on the end of staffOne
+- change score
+
+\score {
+    <<
+    %lead start
+    % <<
+    % \new Staff {
+    %     \new Voice = "lead" { \staffOne }
+    % }
+    % \new Lyrics \lyricsto "lead" { \lyricOneZero }
+    % >>
+    %lead end
+    %choir start
+    \new ChoirStaff {
+        <<
+        \new Staff {
+            <<
+            \new Voice = "sopran" { \stemUp \staffTwo }
+            \new NullVoice = "lead" { \staffOne }
+            \new Lyrics \lyricsto "sopran" { \lyricTwoZero }
+            >>
+        }
+        \new Staff {
+            <<
+            \new Voice = "alt" { \stemDown \staffThree }
+            \new Lyrics \lyricsto "alt" { \lyricThreeZero }
+            >>
+        }
+        \new Staff {
+            <<
+            \new Voice = "tenor" { \stemUp \staffFour }
+            \new Lyrics \lyricsto "tenor" { \lyricFourZero }
+            >>
+        }
+        \new Staff {
+            <<
+            \new Voice = "bass" { \stemDown \staffFive }
+            \new Lyrics \lyricsto "bass" { \lyricFiveZero }
+            >>
+        }
+        >>
+    }
+    %choir end
+    >>
+}
